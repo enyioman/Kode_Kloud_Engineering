@@ -23,7 +23,8 @@ systemctl status mariadb -l
 
 Check the logs
 
-```cat /var/log/mariadb/mariadb.log
+```
+cat /var/log/mariadb/mariadb.log
 ``` 
 Check the permissions
 
