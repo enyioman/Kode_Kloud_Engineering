@@ -19,8 +19,8 @@ systemctl enable httpd
 systemctl status httpd
 ```
 
-![Status](./images/status.png)
-
 ![Status](./images/enable.png)
+
+![Status](./images/status.png)
 
 4. Repeat on appserver 2 and 3
