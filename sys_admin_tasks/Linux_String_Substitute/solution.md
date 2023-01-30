@@ -17,7 +17,7 @@ cat /home/BSD_DELETE.txt | grep copyright
 sed '/\<copyright\>/d' /home/BSD.txt > /home/BSD_DELETE.txt
 ```
 
-4. Replace the given word while making sure no to alter any other word containing the string:
+4. Replace the given word while making sure not to alter any other word containing the string:
 
 ```
 sed 's/\bthe\b/their/g' /home/BSD.txt > /home/BSD_REPLACE.txt
